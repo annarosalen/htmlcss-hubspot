@@ -6,16 +6,74 @@
   box-sizing: border-box;
 }
 
+.centratura{
+  padding: 0 100px;
+}
 
 /* inizio intestazione */
 
+/* nav superiore */
 #options{
-
-  /* debug */
-  height: 100px;
-  background-color: grey;
+  position: relative;
+  height: 50px;
+  background-color: #ccc;
+  border-bottom: solid black 1px;
 }
 
+#navsinistra{
+  float: left;
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+
+}
+
+.tendina-lingue{
+  color: black;
+  background-color: transparent;
+  padding-right: 5px;
+  border: none;
+}
+
+.contact {
+  color: black;
+  font-size: 14px;
+  padding-left: 15px;
+  text-decoration: none;
+  border-left: solid black 1px;
+}
+
+#navdestra {
+  float: right;
+  position:relative;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+#searchnav{
+
+}
+
+.botton-intestazione{
+  font-size: 15px;
+  padding: 8px;
+  border: solid orange 1px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* perchè non funziona .botton-intestazione .white */
+.bgwhite{
+  color: orange;
+  background-color: white;
+}
+
+.bgorange{
+  color: white;
+  background-color: orange
+}
+
+/* fine nav superiore */
 #menu{
 
   /* debug */
