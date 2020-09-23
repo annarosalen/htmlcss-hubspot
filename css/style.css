@@ -1,0 +1,40 @@
+
+/* generale */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* inizio intestazione */
+
+#options{
+
+  /* debug */
+  height: 100px;
+  background-color: grey;
+}
+
+#menu{
+
+  /* debug */
+  height: 100px;
+  background-color: lightgrey;
+}
+
+#jumbotron{
+
+  /* debug */
+  height: 400px;
+  background-color: pink;
+}
+
+#divider{
+
+  /* debug */
+  height: 200px;
+  background-color: green;
+}
+
+/* fine intestazione */
