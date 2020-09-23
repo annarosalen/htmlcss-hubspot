@@ -15,8 +15,8 @@
 /* nav superiore */
 #options{
   position: relative;
-  height: 50px;
-  background-color: #ccc;
+  height: 70px;
+  background-color: #f4f9fd;
   border-bottom: solid black 1px;
 }
 
@@ -57,20 +57,20 @@
 .botton-intestazione{
   font-size: 15px;
   padding: 8px;
-  border: solid orange 1px;
+  border: solid #fe775a 1px;
   border-radius: 8px;
   text-decoration: none;
 }
 
 /* perchè non funziona .botton-intestazione .white */
 .bgwhite{
-  color: orange;
+  color: #fe775a;
   background-color: white;
 }
 
 .bgorange{
   color: white;
-  background-color: orange
+  background-color: #fe775a;
 }
 
 /* fine nav superiore */
