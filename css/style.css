@@ -7,26 +7,30 @@
 }
 
 .centratura{
-  padding-left: 150px;
-  padding-right: 150px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 /* inizio intestazione */
 header{
-  height: 100vh;
+  min-height: 100vh;
 }
 /* nav superiore */
 #options{
-  position: relative;
-  height: 8vh;
+  min-height: 50px;
   background-color: #f4f9fd;
   border-bottom: solid black 1px;
 }
 
+#options .centratura{
+  position: relative;
+}
+
 #navsinistra{
-  float: left;
+  /* float: left; */
   position:absolute;
-  top:50%;
+  top:25px;
+  left:0;
   transform: translateY(-50%);
 
 }
@@ -47,9 +51,10 @@ header{
 }
 
 #navdestra {
-  float: right;
-  position:relative;
-  top:50%;
+  /* float: right; */
+  position: absolute;
+  top:25px;
+  right:0;
   transform: translateY(-50%);
 }
 
@@ -81,7 +86,7 @@ header{
 /* inizio nav inferiore (logo menu) */
 #logomenu-bar{
   position: relative;
-  height: 8vh;
+  min-height: 50px;
   background-color: white;
 }
 
@@ -100,7 +105,7 @@ header{
 #menu-bar {
   float: right;
   position:relative;
-  top:50%;
+  top:25px;
   transform: translateY(-50%);
 }
 
@@ -118,14 +123,14 @@ header{
   background-image: url(../img/img/jumbotron.png);
   background-size:cover;
   border-bottom: solid black 2px;
-  height: 84vh;
+  min-height: 100vh;
 
   /* debug */
   background-color: pink;
 }
 
 .testojumbotron{
-  width: 40%;
+  width: 55%;
 }
 
 .testojumbotron h1{
@@ -167,14 +172,13 @@ header{
 /* inizio prima section del main */
 main #firstcontainer {
   background-color: #f4f9fd;
-  height: 100vh;
+  min-height: 100vh;
 
 }
 
 /* inizio section CUBO */
 #cubo{
   text-align: center;
-  max-height: 20vh;
   padding: 40px 350px;
 }
 
@@ -201,17 +205,28 @@ main #firstcontainer {
 /* inizio  section CRM  */
 
 #CRM{
-  max-height: 20vh;
   background-color: white;
-
+  
 }
 
 #colonna-sinistra-CRM{
-
+  float: left;
+  width: 30%;
+  text-align: center;
+  border-right: solid black 1px;
 
 }
 
 #colonna-sinistra-CRM img{
-  max-height: 100px;
-  max-width: 100px;
+  max-height: 150px;
+  max-width: 150px;
+  padding: 20px;
+}
+
+#colonna-sinistra-CRM a{
+
+}
+
+#colonna-destra-CRM {
+  float:left;
 }
