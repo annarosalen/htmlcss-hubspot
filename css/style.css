@@ -7,15 +7,17 @@
 }
 
 .centratura{
-  padding: 0 100px;
+  padding: 0 150px;
 }
 
 /* inizio intestazione */
-
+header{
+  height: 100vh;
+}
 /* nav superiore */
 #options{
   position: relative;
-  height: 70px;
+  height: 8vh;
   background-color: #f4f9fd;
   border-bottom: solid black 1px;
 }
@@ -62,7 +64,7 @@
   text-decoration: none;
 }
 
-/* perchè non funziona .botton-intestazione .white */
+/* perchè non funziona .botton-intestazione .bgwhite */
 .bgwhite{
   color: #fe775a;
   background-color: white;
@@ -74,10 +76,12 @@
 }
 
 /* fine nav superiore */
+
+/* inizio nav inferiore (logo menu) */
 #logomenu-bar{
   position: relative;
   /* debug */
-  height: 80px;
+  height: 8vh;
   background-color: white;
 }
 
@@ -107,18 +111,53 @@
 
 }
 
-#jumbotron{
+/* fine nav inferiore (logo menu) */
 
+/* inizio jumbotron */
+#jumbotron{
+  background-image: url(../img/img/jumbotron.png);
+  background-size:cover;
+  border-bottom: solid black 2px;
+  height: 100vh;
+  
   /* debug */
-  height: 400px;
   background-color: pink;
 }
 
-#divider{
-
-  /* debug */
-  height: 200px;
-  background-color: green;
+.testojumbotron{
+  width: 40%;
 }
+
+.testojumbotron h1{
+  padding-top: 40px;
+  font-family: arial;
+  font-weight: 800;
+  font-size: 38px;
+}
+
+.testojumbotron p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: arial;
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+.generalbotton{
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.testojumbotron span{
+  display: block;
+  padding-top:40px;
+  font-family: arial;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+/* fine jumbotron */
 
 /* fine intestazione */
