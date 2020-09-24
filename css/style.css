@@ -7,7 +7,8 @@
 }
 
 .centratura{
-  padding: 0 150px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 /* inizio intestazione */
@@ -163,38 +164,54 @@ header{
 
 /* inizio parte centrale */
 
-/* inizio section grigia del main */
+/* inizio prima section del main */
 main #firstcontainer {
   background-color: #f4f9fd;
   height: 100vh;
-  padding: 40px 350px;
 
 }
 
-/* inizio prima parte section grigia */
-#first-up{
+/* inizio section CUBO */
+#cubo{
   text-align: center;
-  max-height: 20%;
+  max-height: 20vh;
+  padding: 40px 350px;
 }
 
-#first-up img{
+#cubo img{
   max-height: 200px;
   max-width: 300px;
 }
 
-#first-up h2{
+#cubo h2{
   font-family: arial;
   font-size: 30px;
   font-weight: 800;
   padding-bottom: 40px;
 }
 
-#first-up p{
+#cubo p{
   font-family: arial;
   font-size: 15px;
   line-height: 30px;
 }
 
-/* fine prima parte section grigia */
+/* fine  section CUBO */
 
-/* inizio seconda parte section grigia */
+/* inizio  section CRM  */
+
+#CRM{
+  max-height: 20vh;
+  background-color: white;
+
+}
+
+#colonna-sinistra-CRM{
+
+
+}
+
+#colonna-sinistra-CRM img{
+  max-height: 100px;
+  max-width: 100px;
+}
