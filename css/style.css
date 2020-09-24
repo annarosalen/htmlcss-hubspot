@@ -80,7 +80,6 @@ header{
 /* inizio nav inferiore (logo menu) */
 #logomenu-bar{
   position: relative;
-  /* debug */
   height: 8vh;
   background-color: white;
 }
@@ -118,8 +117,8 @@ header{
   background-image: url(../img/img/jumbotron.png);
   background-size:cover;
   border-bottom: solid black 2px;
-  height: 100vh;
-  
+  height: 84vh;
+
   /* debug */
   background-color: pink;
 }
@@ -161,3 +160,41 @@ header{
 /* fine jumbotron */
 
 /* fine intestazione */
+
+/* inizio parte centrale */
+
+/* inizio section grigia del main */
+main #firstcontainer {
+  background-color: #f4f9fd;
+  height: 100vh;
+  padding: 40px 350px;
+
+}
+
+/* inizio prima parte section grigia */
+#first-up{
+  text-align: center;
+  max-height: 20%;
+}
+
+#first-up img{
+  max-height: 200px;
+  max-width: 300px;
+}
+
+#first-up h2{
+  font-family: arial;
+  font-size: 30px;
+  font-weight: 800;
+  padding-bottom: 40px;
+}
+
+#first-up p{
+  font-family: arial;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+/* fine prima parte section grigia */
+
+/* inizio seconda parte section grigia */
