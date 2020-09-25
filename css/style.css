@@ -28,11 +28,9 @@ header{
 }
 
 #navsinistra{
-  /* float: left; */
-  position:absolute;
-  top:25px;
-  left:0;
-  transform: translateY(-50%);
+  float: left;
+  padding-top:15px;
+  width: 50%;
 
 }
 
@@ -52,11 +50,10 @@ header{
 }
 
 #navdestra {
-  /* float: right; */
-  position: absolute;
-  top:25px;
-  right:0;
-  transform: translateY(-50%);
+  float:left;
+  padding-top:15px;
+  width: 50%;
+  text-align: right;
 }
 
 #searchnav{
@@ -173,8 +170,6 @@ header{
 /* inizio prima section del main */
 main #firstcontainer {
   background-color: #f4f9fd;
-  min-height: 100vh;
-
 }
 
 /* inizio section CUBO */
@@ -207,7 +202,7 @@ main #firstcontainer {
 
 #CRM{
   background-color: white;
-  height: 250px;
+  min-height: 250px;
   padding:30px;
 }
 
@@ -221,7 +216,7 @@ main #firstcontainer {
 #colonna-sinistra-CRM img{
   max-height: 150px;
   max-width: 150px;
-  padding: 20px;
+  padding-bottom: 20px;
 }
 
 #colonna-sinistra-CRM a{
@@ -231,27 +226,93 @@ main #firstcontainer {
 #colonna-destra-CRM {
   float:left;
   width: 70%;
+  padding-left:20px;
 }
 #colonna-destra-CRM h3{
-  padding: 20px;
+  padding-bottom: 20px;
 
 }
 #colonna-destra-CRM p{
-  padding-bottom: 10px;
-  padding-left: 20px;
+  padding-bottom: 20px;
   padding-right: 200px;
+  font-size: 15px;
 
 }
 #colonna-destra-CRM h4{
   display: inline-block;
-  padding: 20px;
+  padding-bottom: 40px;
 }
 #colonna-destra-CRM hr{
   display: inline-block;
-  width: 500px;
+  background-color: black;
+  width: 400px;
+  margin-left: 30px;
 }
 #list-CRM li{
   list-style: none;
   display: inline-block;
-  padding-left: 20px;
+  font-size: 15px;
 }
+/* fine sectio crm */
+
+/* inizio section marketing sales service */
+
+#marketing-sales-service{
+  margin-top: 50px;
+}
+
+#marketing-sales-service .column{
+  background-color: green;
+  width: calc((100% - 100px) / 3);
+  float: left;
+  text-align: center;
+  padding: 60px;
+}
+
+#marketing{
+  margin-right: 50px;
+}
+
+#sales{
+  margin-right: 50px;
+}
+
+#marketing-sales-service img{
+  height: 100px;
+  width: 100px;
+}
+
+#marketing-sales-service h3{
+  padding-top: 20px;
+}
+
+#marketing-sales-service p{
+  padding-top: 20px;
+  padding-bottom:20px;
+  font-size: 15px;
+}
+
+#marketing-sales-service h4{
+  padding-top: 20px;
+  border-top: solid black 1px;
+}
+
+#marketing-sales-service ul{
+  list-style: none;
+  text-align:left;
+  padding-top:20px;
+  padding-bottom: 50px;
+}
+
+
+
+/* .marketing-sales-service{
+  float: left;
+  text-align: center;
+
+}
+
+.marketing-sales-service img{
+  max-height: 100px;
+  max-width: 100px;
+} */
