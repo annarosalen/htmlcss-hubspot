@@ -12,6 +12,12 @@
   margin-right: 150px;
 }
 
+.clearfix::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
 /* inizio intestazione */
 header{
   min-height: 100vh;
@@ -165,6 +171,8 @@ header{
 
 /* fine intestazione */
 
+
+
 /* inizio parte centrale */
 
 /* inizio prima section del main */
@@ -172,7 +180,7 @@ main #firstcontainer {
   background-color: #f4f9fd;
 }
 
-/* inizio section CUBO */
+/* inizio parte CUBO */
 #cubo{
   text-align: center;
   padding: 40px 350px;
@@ -183,26 +191,23 @@ main #firstcontainer {
   max-width: 300px;
 }
 
-#cubo h2{
-  font-family: arial;
+.sottotitoli-h2{
   font-size: 30px;
   font-weight: 800;
   padding-bottom: 40px;
 }
 
-#cubo p{
-  font-family: arial;
+.paragrafi-centrali{
   font-size: 15px;
   line-height: 30px;
 }
 
-/* fine  section CUBO */
+/* fine parte CUBO */
 
-/* inizio  section CRM  */
+/* inizio   CRM  */
 
 #CRM{
   background-color: white;
-  min-height: 250px;
   padding:30px;
 }
 
@@ -253,20 +258,21 @@ main #firstcontainer {
   display: inline-block;
   font-size: 15px;
 }
-/* fine sectio crm */
+/* fine crm */
 
-/* inizio section marketing sales service */
+/* inizio marketing sales service */
 
 #marketing-sales-service{
   margin-top: 50px;
 }
 
 #marketing-sales-service .column{
-  background-color: green;
+  background-color: white;
   width: calc((100% - 100px) / 3);
   float: left;
   text-align: center;
   padding: 60px;
+  margin-bottom: 50px;
 }
 
 #marketing{
@@ -303,16 +309,68 @@ main #firstcontainer {
   padding-top:20px;
   padding-bottom: 50px;
 }
+/* fine prima section del main */
 
+/* inizio seconda section del main */
 
-
-/* .marketing-sales-service{
-  float: left;
+#secondcontainer{
+  background-image: linear-gradient(45deg, #00A4BD, #00BDA5);
+  padding-top: 40px;
+}
+#titolo-white{
   text-align: center;
-
+  color: white;
 }
 
-.marketing-sales-service img{
-  max-height: 100px;
-  max-width: 100px;
-} */
+#titolo-white .sottotitoli-h2{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#titolo-white .paragrafi-centrali{
+  margin-bottom: 40px;
+}
+
+.colonna-verde{
+  float: left;
+  width: calc(100% / 4);
+}
+
+.colonna-verde .up{
+  text-align: center;
+  color: white;
+  padding: 40px;
+  border-right: solid white 1px;
+  border-bottom: solid white 1px;
+}
+
+.colonna-verde .down{
+  text-align: center;
+  color: white;
+  padding: 40px;
+  border-right: solid white 1px;
+}
+
+.colonna-verde img, h2 {
+  padding-bottom: 10px;
+}
+
+
+
+#ultima-colonna-up {
+  text-align: center;
+  color: white;
+  padding: 40px;
+  border-bottom: solid white 1px;
+}
+
+#ultima-colonna-down{
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
+
+#imgApp{
+  height: 50px;
+  width: 150px;
+}
