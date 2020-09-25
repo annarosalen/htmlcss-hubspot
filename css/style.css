@@ -8,14 +8,30 @@
 }
 
 .centratura{
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .clearfix::after{
   display: table;
   content: "";
   clear: both;
+}
+
+p{
+  font-size: 13px;
+  line-height: 20px;
+}
+
+span{
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.generalbotton{
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 /* inizio intestazione */
@@ -134,7 +150,7 @@ header{
 }
 
 .testojumbotron{
-  width: 55%;
+  padding-right: 600px;
 }
 
 .testojumbotron h1{
@@ -153,17 +169,11 @@ header{
   margin-bottom: 20px;
 }
 
-.generalbotton{
-  text-decoration: none;
-  padding: 20px;
-  border-radius: 8px;
-}
+
 
 .testojumbotron span{
   display: block;
   padding-top:40px;
-  font-family: arial;
-  font-size: 12px;
   line-height: 30px;
 }
 
@@ -195,11 +205,6 @@ main #firstcontainer {
   font-size: 30px;
   font-weight: 800;
   padding-bottom: 40px;
-}
-
-.paragrafi-centrali{
-  font-size: 15px;
-  line-height: 30px;
 }
 
 /* fine parte CUBO */
@@ -240,7 +245,6 @@ main #firstcontainer {
 #colonna-destra-CRM p{
   padding-bottom: 20px;
   padding-right: 200px;
-  font-size: 15px;
 
 }
 #colonna-destra-CRM h4{
@@ -257,6 +261,7 @@ main #firstcontainer {
   list-style: none;
   display: inline-block;
   font-size: 15px;
+  padding-right: 10px;
 }
 /* fine crm */
 
@@ -295,7 +300,6 @@ main #firstcontainer {
 #marketing-sales-service p{
   padding-top: 20px;
   padding-bottom:20px;
-  font-size: 15px;
 }
 
 #marketing-sales-service h4{
@@ -308,6 +312,10 @@ main #firstcontainer {
   text-align:left;
   padding-top:20px;
   padding-bottom: 50px;
+}
+
+#marketing-sales-service li{
+  padding-bottom: 10px;
 }
 /* fine prima section del main */
 
@@ -331,31 +339,29 @@ main #firstcontainer {
   margin-bottom: 40px;
 }
 
-.colonna-verde{
+.colonne{
   float: left;
   width: calc(100% / 4);
 }
 
-.colonna-verde .up{
+.verde-up, .verde-down{
   text-align: center;
-  color: white;
   padding: 40px;
+}
+.colonne .verde-up{
+  color: white;
   border-right: solid white 1px;
   border-bottom: solid white 1px;
 }
 
-.colonna-verde .down{
-  text-align: center;
+.colonne .verde-down{
   color: white;
-  padding: 40px;
   border-right: solid white 1px;
 }
 
-.colonna-verde img, h2 {
+.colonne img, h2 {
   padding-bottom: 10px;
 }
-
-
 
 #ultima-colonna-up {
   text-align: center;
@@ -373,4 +379,75 @@ main #firstcontainer {
 #imgApp{
   height: 50px;
   width: 150px;
+}
+
+/* fine seconda sezione del main */
+
+
+/* inizio terza sezione del main */
+/* inizio customers number */
+#customers-number{
+  float: left;
+  width: 30%;
+  padding: 100px;
+}
+
+#customers-number h2{
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+/* inizio tabella sponsor */
+#sponsor{
+  float: left;
+  width: 70%;
+  padding: 100px 150px;
+}
+
+
+.up img{
+  height: 20px;
+  width: 100px;
+}
+
+.down img{
+  height: 50px;
+  width: 100px;
+}
+/* fine primo blocco terza sezione */
+
+/* inizio secondo blocco terza sezione */
+
+#hub-and-woman{
+  margin-top:
+}
+#HubSpotW{
+  float: left;
+  width: 50%;
+  padding-right: 200px;
+}
+
+#HubSpotW h2{
+  padding-bottom: 40px;
+  font-size: 30px;
+}
+
+#HubSpotW p{
+  padding-bottom: 60px;
+}
+
+#HubSpotW span{
+  display: block;
+  padding-top: 60px;
+}
+
+#Woman{
+  float: left;
+  width:50%;
+  padding: 0 200px;
+}
+
+#Woman img{
+  height: 350px;
+  width: 300px;
 }
