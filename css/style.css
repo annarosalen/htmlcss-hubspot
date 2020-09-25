@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: arial;
 }
 
 .centratura{
@@ -206,14 +207,14 @@ main #firstcontainer {
 
 #CRM{
   background-color: white;
-  
+  height: 250px;
+  padding:30px;
 }
 
 #colonna-sinistra-CRM{
   float: left;
   width: 30%;
   text-align: center;
-  border-right: solid black 1px;
 
 }
 
@@ -229,4 +230,28 @@ main #firstcontainer {
 
 #colonna-destra-CRM {
   float:left;
+  width: 70%;
+}
+#colonna-destra-CRM h3{
+  padding: 20px;
+
+}
+#colonna-destra-CRM p{
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 200px;
+
+}
+#colonna-destra-CRM h4{
+  display: inline-block;
+  padding: 20px;
+}
+#colonna-destra-CRM hr{
+  display: inline-block;
+  width: 500px;
+}
+#list-CRM li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 20px;
 }
