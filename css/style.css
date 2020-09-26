@@ -40,7 +40,7 @@ header{
 }
 /* nav superiore */
 #options{
-  min-height: 50px;
+  min-height: 60px;
   background-color: #f4f9fd;
   border-bottom: solid black 1px;
 }
@@ -51,7 +51,7 @@ header{
 
 #navsinistra{
   float: left;
-  padding-top:15px;
+  padding-top:20px;
   width: 50%;
 
 }
@@ -73,7 +73,7 @@ header{
 
 #navdestra {
   float:left;
-  padding-top:15px;
+  padding-top:20px;
   width: 50%;
   text-align: right;
 }
@@ -105,16 +105,14 @@ header{
 
 /* inizio nav inferiore (logo menu) */
 #logomenu-bar{
-  position: relative;
   min-height: 50px;
   background-color: white;
 }
 
 #logo{
   float: left;
-  position:absolute;
-  top:50%;
-  transform: translateY(-50%);
+  padding-top: 10px;
+  width: 50%;
 }
 
 #logo img{
@@ -123,17 +121,21 @@ header{
 }
 
 #menu-bar {
-  float: right;
-  position:relative;
-  top:25px;
-  transform: translateY(-50%);
+  float: left;
+  text-align: right;
+  padding-top: 20px;
+  width: 50%;
 }
 
 #menu-bar ul li{
   display: inline;
   width: 100px;
   padding: 15px 0 15px 15px;
+}
 
+#menu-bar ul a{
+  text-decoration: none;
+  color: black;
 }
 
 /* fine nav inferiore (logo menu) */
