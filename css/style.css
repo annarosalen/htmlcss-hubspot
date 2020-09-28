@@ -34,6 +34,9 @@ span{
   border-radius: 8px;
 }
 
+.fa-check-circle{
+  color: #fe775a;
+}
 /* inizio intestazione */
 header{
   min-height: 100vh;
@@ -45,9 +48,6 @@ header{
   border-bottom: solid black 1px;
 }
 
-#options .centratura{
-  position: relative;
-}
 
 #navsinistra{
   float: left;
@@ -78,10 +78,9 @@ header{
   text-align: right;
 }
 
-#searchnav{
-
+.fa-search{
+  padding-right: 10px;
 }
-
 .botton-intestazione{
   font-size: 15px;
   padding: 8px;
@@ -138,6 +137,9 @@ header{
   color: black;
 }
 
+.fa-chevron-down{
+  padding-left: 2px;
+}
 /* fine nav inferiore (logo menu) */
 
 /* inizio jumbotron */
@@ -170,8 +172,6 @@ header{
   line-height: 30px;
   margin-bottom: 20px;
 }
-
-
 
 .testojumbotron span{
   display: block;
@@ -500,6 +500,17 @@ footer {
   border-radius: 8px;
   font-size: 13px;
 }
+
+.social-icons{
+  color: white;
+}
+
+.fa-facebook-square, .fa-instagram, .fa-twitter, .fa-youtube-play, .fa-linkedin{
+  float: left;
+  padding-right: 25px;
+  padding-top: 10px;
+}
+
 
 /* fine categories */
 
